@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+  background-color: gray;
+  text-align: center;
+}
+.img {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+}
+.person {
+  color: red;
+  text-align: left;
+}
+.p {
+  text-align: center;
+  color: gray;
+  width: auto;
+  height: auto;
+}
+.button {
+  text-align: left;
+  color: red;
+  text-shadow: red;
+  width: auto;
+}
+
+.movie{
+    text-align: left;
+}
