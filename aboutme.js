@@ -1,6 +1,6 @@
 // I want the ues to input their name and they will get a welcome form th website.
 /*
-function innames(){
+function inNames(){
 let usernames = prompt("What is your name?");
  document.write(" Hey, welcome " + usernames + " happy for here you here!");
 }*/
@@ -12,10 +12,11 @@ function quiz() {
   let name = true;
 
   while (name) {
-    let response = prompt("What is my Jerrod Bolton?");
-    if (response === "yes") {
+    let response = prompt(" Is my name Jerrod Bolton?");
+    if (response.toUpperCase() === "YES" || response.toUpperCase() === "Y" ){
       name = false;
       alert("Your Correct!!!!");
+      consol.log("response")
     } 
     else {
       alert("Your answer is incorrect");
@@ -26,9 +27,10 @@ function quiz() {
 
   while (school) {
     let response2 = prompt("Did I go to freedom Prep?");
-    if (response2 === "yes") {
+    if (response2.toUpperCase() === "YES" || response2.toUpperCase() === "Y" ) {
       school = false;
       alert("Your Correct!!!!");
+      consol.log("response2")
     } 
     else {
       alert("Your answer is incorrect");
@@ -39,9 +41,10 @@ function quiz() {
 
   while (graduate) {
     let response3 = prompt("Did I graduate in 2017?");
-    if (response3 === "no") {
+    if (response3.toUpperCase() === "NO" || response2.toUpperCase() === "N" ) {
       graduate = false;
       alert("Your Correct!!!!");
+      consol.log("response3")
     } 
     else {
       alert("Your answer is incorrect");
@@ -52,9 +55,10 @@ function quiz() {
 
   while (college){
     let response5 = prompt(" Was college easy for me?");
-    if (response5 === "no") {
+    if (response5.toUpperCase() === "NO" || response5.toUpperCase() === "N" ) {
       college = false;
       alert("Your Correct!!!!");
+      consol.log("response4")
   
         }   
          else{
@@ -67,18 +71,20 @@ function quiz() {
 
   while (golds) {
     let response4 = prompt("Is my gold to be a software engineer?");
-    if (response4 === "yes") {
+    if (response4.toUpperCase() === "YES" || response4.toUpperCase() === "Y" ) {
        golds = false;
       alert("Your Correct!!!!");
+      consol.log("response4")
     }
      else {
       alert("Your answer is incorrect");
+
     }
   }
 }
 
  
-let magicnumber = "15";
+let magicNumber = "15";
 
 alert (" You four chances to guess the correct number. 1-20");
 
@@ -86,17 +92,17 @@ alert (" You four chances to guess the correct number. 1-20");
 
     let guess = prompt("What is the magic number 1-20?");
 
-    // guess is greatest the magicnumber
+    // guess is greatest the magicNumber
 
-     if(guess > magicnumber ){
+     if(guess > magicNumber ){
         
       alert("Your to high");
       
     }
      
-    // guess is to low than magicnumber 
+    // guess is to low than magicNumber 
 
-    if( guess < magicnumber){
+    if( guess < magicNumber){
       alert("Your to low");
     }
 
@@ -104,7 +110,7 @@ alert (" You four chances to guess the correct number. 1-20");
     if (guess === "14" ){
       alert("So close but wrong to low!!!");
     }
-    if(guess === magicnumber){
+    if(guess === magicNumber){
       alert( "You got it");
     
       break;
