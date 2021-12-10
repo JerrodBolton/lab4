@@ -1,28 +1,64 @@
 h1 {
   color: red;
   background-color: gray;
+ padding: 20px;
   text-align: center;
+}
+header{
+  text-align: center;
+  padding: 20px;
+  background-color:red;
+  border-style: groove;
+  border-color: grey;
+  border-width: 6px;
+}
+nav > a {
+  text-decoration: none;
+  
+  padding-left: 20px;
+  padding-right:20px;
+  
+  color: black ;
 }
 .img {
   background-color: gray;
   text-align: center;
   padding: 20px;
 }
+.JournalEntry{
+ text-align: center;
+height: 20px;
+}
 .person {
   color: red;
   text-align: center;
+  padding-top: 20px;
+}
+p{
+  text-align: center;
+  font-size: 17.5555px;
 }
 .p {
   text-align: center;
+  border-style: groove;
   color: gray;
   width: auto;
   height: auto;
 }
 .button {
-  text-align: left;
+  text-align: center;
+  color: red;
+  border: none;
+ 
+}
+.main {
+  text-align: center;
+  font-size: 45px;
   color: red;
   text-shadow: red;
+ padding-bottom: 400px;
   width: auto;
+  border: none;
 }
 
 .movie{
